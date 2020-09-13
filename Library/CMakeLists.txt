@@ -3,4 +3,4 @@ project(Library)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Library main.cpp)
+add_executable(Library main.cpp notes/Note.h notes/NoteLetter.h)
